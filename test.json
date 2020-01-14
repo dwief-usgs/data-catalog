@@ -1,0 +1,42 @@
+{
+    "homeCamera": {
+        "west": -127.3,
+        "south": 38,
+        "east": -115.25,
+        "north": 51
+    },
+    "initialViewerMode":"2d",
+    "catalog": [
+        {
+            name: "Test Group of PMEMP datasets",
+            type: "group",
+            isOpen: true,
+            preserveOrder: true,
+            description: "Test catalog of PMEMP data resources.",
+            items:[
+                {
+                    "name": "West Coast USA Current and Historical Estuary Extent",
+                    "type": "esri-mapServer",
+                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Current_and_Historical_Estuary_Extent/MapServer",
+                    "useStyleInformationFromService": true,
+                    "description": "test description, Accurate mapping of tidal wetlands is vital for effective conservation and restoration of these valued habitats, and good mapping is key to strategic planning for coastal resilience. Tidal wetlands are defined by regular inundation by the tides; therefore, mapping of tidal wetlands should be based on knowledge of tidal water levels and the land areas inundated by the tides. We developed this tidal wetland mapping following that principle. "
+                },
+                {
+                    "name": "Estuary Points",
+                    "type": "esri-mapServer",
+                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/PMEP_Estuary_Points/MapServer",
+                    "useStyleInformationFromService": true,
+                    "description": "test description"
+                },
+                {
+                    "name": "Pacic Marine and Estuarine FHP Boundary 2013",
+                    "type": "esri-mapServer",
+                    "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81c8fe4b00ae347ff0eba/MapServer",
+                    "useStyleInformationFromService": true,
+                    "description": "This shapefile is the 2013 official boundary of the Pacific Marine and Estuarine Fish Habitat Partnership (PMEP), a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership (NFHP). The boundary, also known as the 'geographic scope', of the PMEP includes the estuarine and marine nearshore complex (PMEP focus area, coastal subregions, and nearshore marine waters) of the states of California, Oregon, and Washington. The seperate zones and area of focused interest are available as seperate boundary layers."
+                }
+            ]
+        
+        }
+    ]
+}
