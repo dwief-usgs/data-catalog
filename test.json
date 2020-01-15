@@ -22,14 +22,11 @@
                     "description": "test description"
                 },
                 {
-                    "name": "West Coast USA Current and Historical Estuary Extent",
                     "type": "esri-mapServer",
                     "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Current_and_Historical_Estuary_Extent/MapServer",
-                    "useStyleInformationFromService": true,
                     "dataUrl" : "https://www.pacificfishhabitat.org/data/estuary-extents",
                     "dataCustodian" : "data custodian here", 
-                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9",
-                    "description" : "Testing 123"
+                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9"
                 },
                 {
                     "name": "Pacic Marine and Estuarine FHP Boundary 2013",
