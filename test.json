@@ -19,14 +19,8 @@
                     "type": "esri-mapServer",
                     "url": "https://honu.psmfc.org/server/rest/services/PMEP/PMEP_Estuary_Points/MapServer",
                     "useStyleInformationFromService": true,
-                    "description": "test description"
-                },
-                {
-                    "type": "esri-mapServer",
-                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Current_and_Historical_Estuary_Extent/MapServer",
-                    "dataUrl" : "https://www.pacificfishhabitat.org/data/estuary-extents",
-                    "dataCustodian" : "data custodian here", 
-                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9"
+                    "description": "test description",
+                    "dataCustodian" : "data custodian here"
                 },
                 {
                     "name": "Pacic Marine and Estuarine FHP Boundary 2013",
