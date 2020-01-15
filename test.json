@@ -20,14 +20,35 @@
                     "url": "https://honu.psmfc.org/server/rest/services/PMEP/PMEP_Estuary_Points/MapServer",
                     "useStyleInformationFromService": true,
                     "description": "test description",
-                    "dataCustodian" : "data custodian here"
+                    "dataCustodian" : "data custodian here",
+                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9"
                 },
                 {
-                    "name": "Pacic Marine and Estuarine FHP Boundary 2013",
+                    "name": "West Coast USA Estuarine Biotic Habitat",
                     "type": "esri-mapServer",
-                    "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e81c8fe4b00ae347ff0eba/MapServer",
+                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Estuarine_Biotic_Habitat/MapServer",
                     "useStyleInformationFromService": true,
-                    "description": "This shapefile is the 2013 official boundary of the Pacific Marine and Estuarine Fish Habitat Partnership (PMEP), a recognized Fish Habitat Partnership (FHP) of the National Fish Habitat Partnership (NFHP). The boundary, also known as the 'geographic scope', of the PMEP includes the estuarine and marine nearshore complex (PMEP focus area, coastal subregions, and nearshore marine waters) of the states of California, Oregon, and Washington. The seperate zones and area of focused interest are available as seperate boundary layers."
+                    "description": "add text here",
+                    "dataCustodian" : "data custodian here",
+                    "metadataUrl" : "https://coast.noaa.gov/data/digitalcoast/pdf/cmecs.pdf"
+                },
+                {
+                    "name": "West Coast USA Eelgrass Maximum Observed Extent",
+                    "type": "esri-mapServer",
+                    "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Extent/MapServer",
+                    "useStyleInformationFromService": true,
+                    "description": "add text here",
+                    "dataCustodian" : "data custodian here",
+                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s7649fb61b4844618"
+                },
+                {
+                    "name": "West Coast USA Eelgrass Points",
+                    "type": "esri-mapServer",
+                    "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Points/MapServer",
+                    "useStyleInformationFromService": true,
+                    "description": "add text here",
+                    "dataCustodian" : "data custodian here",
+                    "metadataUrl" : "https://psmfc.sharefile.com/d-s648dc16df4e490e8"
                 }
             ]
         }
