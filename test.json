@@ -66,7 +66,24 @@
                     preserveOrder: true,
                     description: "Test catalog of CA data resources.",
                     items:[
-                        
+                        {
+                            "name": "California Fish Passage Assessment Database",
+                            "type": "esri-mapServer",
+                            "url": "https://map.dfg.ca.gov/arcgis/rest/services/Project_PAD/PAD/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "The Passage Assessment Database (PAD) geospatial file contains locations of known and potential barriers to salmonid migration in California streams with additional information about each record.",
+                            "dataCustodian" : "data manager here",
+                            "metadataUrl" : "https://map.dfg.ca.gov/metadata/ds0069.html"
+                        },
+                        {
+                            "name": "Official Recognized Boundary of California Fish Passage Forum, 2013",
+                            "type": "esri-mapServer",
+                            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52274bd2e4b01904cf5a81d1/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "add text here",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://www.sciencebase.gov/catalog/item/52274bd2e4b01904cf5a81d1"
+                        }
                     ]
                 },
                 {
@@ -76,7 +93,15 @@
                     preserveOrder: true,
                     description: "Test catalog of SARP data resources.",
                     items:[
-                        
+                        {
+                            "name": "Official Recognized Boundary of SARP, 2013",
+                            "type": "esri-mapServer",
+                            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/52e82431e4b00ae347ff0ee8/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "add text here",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://www.sciencebase.gov/catalog/item/52e82431e4b00ae347ff0ee8"
+                        } 
                     ]
                 }
             ]
