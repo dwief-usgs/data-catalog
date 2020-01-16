@@ -8,68 +8,77 @@
     "initialViewerMode":"2d",
     "catalog": [
         {
-            name: "Test Group of PMEP datasets",
+            name: "Test National Fish Habitat Partnership Data Catalog - By FHP",
             type: "group",
-            isOpen: false,
+            isOpen: true,
             preserveOrder: true,
-            description: "Test catalog of PMEP data resources.",
+            description: "Test catalog of NFHP data resources by FHP.",
             items:[
                 {
-                    "name": "Estuary Points",
-                    "type": "esri-mapServer",
-                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/PMEP_Estuary_Points/MapServer",
-                    "useStyleInformationFromService": true,
-                    "description": "test description",
-                    "dataCustodian" : "data custodian here",
-                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9"
+                    name: "Test Group of PMEP datasets",
+                    type: "group",
+                    isOpen: false,
+                    preserveOrder: true,
+                    description: "Test catalog of PMEP data resources.",
+                    items:[
+                        {
+                            "name": "Estuary Points",
+                            "type": "esri-mapServer",
+                            "url": "https://honu.psmfc.org/server/rest/services/PMEP/PMEP_Estuary_Points/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "test description",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://psmfc.sharefile.com/share/view/s459af5f65f8419a9"
+                        },
+                        {
+                            "name": "West Coast USA Estuarine Biotic Habitat",
+                            "type": "esri-mapServer",
+                            "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Estuarine_Biotic_Habitat/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "add text here",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://coast.noaa.gov/data/digitalcoast/pdf/cmecs.pdf"
+                        },
+                        {
+                            "name": "West Coast USA Eelgrass Maximum Observed Extent",
+                            "type": "esri-mapServer",
+                            "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Extent/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "add text here",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://psmfc.sharefile.com/share/view/s7649fb61b4844618"
+                        },
+                        {
+                            "name": "West Coast USA Eelgrass Points",
+                            "type": "esri-mapServer",
+                            "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Points/MapServer",
+                            "useStyleInformationFromService": true,
+                            "description": "add text here",
+                            "dataCustodian" : "data custodian here",
+                            "metadataUrl" : "https://psmfc.sharefile.com/d-s648dc16df4e490e8"
+                        }
+                    ]
                 },
                 {
-                    "name": "West Coast USA Estuarine Biotic Habitat",
-                    "type": "esri-mapServer",
-                    "url": "https://honu.psmfc.org/server/rest/services/PMEP/West_Coast_USA_Estuarine_Biotic_Habitat/MapServer",
-                    "useStyleInformationFromService": true,
-                    "description": "add text here",
-                    "dataCustodian" : "data custodian here",
-                    "metadataUrl" : "https://coast.noaa.gov/data/digitalcoast/pdf/cmecs.pdf"
+                    name: "Test Group of CA Fish Passage Forum datasets",
+                    type: "group",
+                    isOpen: false,
+                    preserveOrder: true,
+                    description: "Test catalog of CA data resources.",
+                    items:[
+                        
+                    ]
                 },
                 {
-                    "name": "West Coast USA Eelgrass Maximum Observed Extent",
-                    "type": "esri-mapServer",
-                    "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Extent/MapServer",
-                    "useStyleInformationFromService": true,
-                    "description": "add text here",
-                    "dataCustodian" : "data custodian here",
-                    "metadataUrl" : "https://psmfc.sharefile.com/share/view/s7649fb61b4844618"
-                },
-                {
-                    "name": "West Coast USA Eelgrass Points",
-                    "type": "esri-mapServer",
-                    "url": "https://maps.psmfc.org/server/rest/services/PMEP/PMEP_Eelgrass_Points/MapServer",
-                    "useStyleInformationFromService": true,
-                    "description": "add text here",
-                    "dataCustodian" : "data custodian here",
-                    "metadataUrl" : "https://psmfc.sharefile.com/d-s648dc16df4e490e8"
+                    name: "Test Group of SARP datasets",
+                    type: "group",
+                    isOpen: false,
+                    preserveOrder: true,
+                    description: "Test catalog of SARP data resources.",
+                    items:[
+                        
+                    ]
                 }
-            ]
-        },
-        {
-            name: "Test Group of CA Fish Passage Forum datasets",
-            type: "group",
-            isOpen: false,
-            preserveOrder: true,
-            description: "Test catalog of CA data resources.",
-            items:[
-                
-            ]
-        },
-        {
-            name: "Test Group of SARP datasets",
-            type: "group",
-            isOpen: false,
-            preserveOrder: true,
-            description: "Test catalog of SARP data resources.",
-            items:[
-                
             ]
         }
     ]
