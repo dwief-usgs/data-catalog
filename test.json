@@ -8,11 +8,11 @@
     "initialViewerMode":"2d",
     "catalog": [
         {
-            name: "Test Group of PMEMP datasets",
+            name: "Test Group of PMEP datasets",
             type: "group",
-            isOpen: true,
+            isOpen: false,
             preserveOrder: true,
-            description: "Test catalog of PMEMP data resources.",
+            description: "Test catalog of PMEP data resources.",
             items:[
                 {
                     "name": "Estuary Points",
@@ -50,6 +50,26 @@
                     "dataCustodian" : "data custodian here",
                     "metadataUrl" : "https://psmfc.sharefile.com/d-s648dc16df4e490e8"
                 }
+            ]
+        },
+        {
+            name: "Test Group of CA Fish Passage Forum datasets",
+            type: "group",
+            isOpen: false,
+            preserveOrder: true,
+            description: "Test catalog of CA data resources.",
+            items:[
+                
+            ]
+        },
+        {
+            name: "Test Group of SARP datasets",
+            type: "group",
+            isOpen: false,
+            preserveOrder: true,
+            description: "Test catalog of SARP data resources.",
+            items:[
+                
             ]
         }
     ]
