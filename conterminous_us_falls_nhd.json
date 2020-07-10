@@ -1,0 +1,22 @@
+{
+    "homeCamera": {
+        "west": -127.3,
+        "south": 38,
+        "east": -115.25,
+        "north": 51
+    },
+    "initialViewerMode":"2d",
+    "catalog": [
+        {
+
+            "name": "Waterfalls and Rapids in the Conterminous United States Linked to the National Hydrography Datasets",
+            "type": "geojson",
+            "url": "https://www.sciencebase.gov/catalog/file/get/5e8d2b5982cee42d13466001?f=__disk__86%2Ff1%2Fc5%2F86f1c5a4ab96d77b04d827a87b0e85570b97d25e",
+            "useStyleInformationFromService": "false",
+            "description": "This GeoJSON dataset contains information about 10780 waterfall and 1080 rapid locations (referred to as falls throughout the metadata) and characteristics (e.g. type and height) for the conterminous United States. This dataset centralizes known information about falls while providing basic quality control (i.e. resolving duplicate records and spatial accuracy checks) and linkages to stream networks intended to facilitate stream network analyses. Locations of falls were sourced from the World Waterfall Database (WWD, www.worldwaterfalldatabase.com), the US Forest Service Center for Aquatic Technology Transfer (acquired from Southeast Aquatic Barrier Inventory), and Geographic Names Information System (GNIS, https://geonames.usgs.gov). The coordinates and spatial attributes from source data were used to verify locations using The HydroLink Tool (https://maps.usgs.gov/hydrolink). The HydroLink Tool was also used to address locations (similar to the concept of street addresses) to both the National Hydrography Dataset Plus Medium Resolution Version 2.1 (1:100,000 scale)(NHDPlusV2.1) and National Hydrography Dataset High Resolution (1:24,000 scale)(NHD HR) geospatial stream networks. The development of this dataset did not impose strict fall definitions but instead compiled qualified falls as defined by sources while capturing characteristics when available to help users identify falls of interest for any given use case. More specifically there is a gradation of waterfalls represented in the dataset where general fall types are defined by source datasets but are not standardized by USGS staff.",
+            "dataCustodian" : "Daniel Wieferich; dwieferich@usgs.gov",
+            "metadataUrl" : "https://doi.org/10.5066/P9QQTKA0"
+        }
+                ]
+}
+                           
