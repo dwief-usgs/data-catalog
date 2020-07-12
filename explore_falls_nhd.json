@@ -12,7 +12,7 @@
             "name": "Explore Waterfall, Rapid and NHD Data",
             "type": "group",
             "preserveOrder": true,
-            "initialMessage": {"title": "Note","content":"To start exploring 'Waterfalls and Rapids in the Conterminous United States Linked to the National Hydrography Datasets' select the dataset in the catalog and click 'add to the map' or click the plus symbol to the right of the dataset name in the catalog.  This will add the dataset to the map. Turn map layers on and off by clicking the box to the left of the layer name in the map contents."},
+            "initialMessage": {"title": "Getting started","content":"To start exploring 'Waterfalls and Rapids in the Conterminous United States Linked to the National Hydrography Datasets' first add the data to the map. Click 'Add data' and select the dataset in the catalog.  Next click 'Add to the map' in the upper right of the dataset's description or click the plus symbol to the right of the dataset name in the catalog.  This will add the dataset to the map. Users can activate individual map layers on and off by clicking the box to the left of the layer name in the map contents. Note, by default NHD layers are added to the map but are not activated"},
             "items":[
                 {
                     "name": "Waterfalls and Rapids in the Conterminous United States Linked to the National Hydrography Datasets",
