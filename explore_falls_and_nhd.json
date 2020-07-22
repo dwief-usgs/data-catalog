@@ -2,7 +2,7 @@
     "homeCamera": {
         "west": -127.3,
         "south": 38,
-        "east": -115.25,
+        "east": -60,
         "north": 51
     },
     "initialViewerMode":"2d",
